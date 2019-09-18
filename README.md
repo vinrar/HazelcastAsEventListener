@@ -1,3 +1,8 @@
+I was able to hit multiple pods at once in Kubernets with this code and it is the solution for my question in Kubernetes: https://stackoverflow.com/questions/49612412/kubenetes-is-it-possible-to-hit-multiple-pods-with-a-single-request-in-kubernet
+
+Apart from working as an agent to invalidate cache in multiple pods, Hazelcast in kubernetes can be used as an event listener.
+This is a small POC for the same.
+
 # HazelcastAsEventListener
 Using Hazelcast ISet and event listeners for invalidating cache.
 This project is to test event listener sequencing in a hazelcast cluster.
